@@ -2,7 +2,9 @@
 
 ## Complete Walkthrough | Active Directory Security Testing
 
-A detailed, step-by-step walkthrough of the TryHackMe Proxy room, covering Active Directory enumeration, service account exploitation, NTLM hash capture, Kerberos delegation abuse, and Domain Controller compromise.
+A simple, beginner-friendly walkthrough of the TryHackMe Proxy room. This write-up explains the entire process step by step, with clear commands and straightforward explanations so you can follow along without confusion.
+
+No unnecessary complexity or complicated explanations — just the commands, what to look for, what the results mean, and how to move to the next step.
 
 ### Room Information
 
@@ -19,20 +21,26 @@ A detailed, step-by-step walkthrough of the TryHackMe Proxy room, covering Activ
 ### Topics Covered
 
 - Nmap scanning and service enumeration
-- Active Directory and SMB enumeration
-- SMB share discovery and file retrieval
+- Active Directory enumeration
+- SMB enumeration and file retrieval
 - Internal IT portal analysis
-- Service account enumeration
+- Service account discovery
 - NTLMv2 hash capture using Responder
-- Password hash cracking using John the Ripper
+- Password cracking using John the Ripper
 - Kerberos authentication and ticket enumeration
 - Kerberos constrained delegation
-- S4U2Self and S4U2Proxy exploitation
+- S4U2Self and S4U2Proxy
 - Administrator impersonation
-- Accessing the Domain Controller using Impacket
+- Domain Controller access using Impacket
 
 ### Repository Contents
 
-- [**proxy.md**](https://github.com/hasanmainul83/tryhackme-proxy-writeup/blob/main/proxy.md) – Complete walkthrough with commands, explanations, and exploitation steps.
+- [**proxy.md**](https://github.com/hasanmainul83/tryhackme-proxy-writeup/blob/main/proxy.md) – Complete step-by-step walkthrough with commands and simple explanations.
 - [**images/**](https://github.com/hasanmainul83/tryhackme-proxy-writeup/tree/main/images) – Screenshots documenting the enumeration and exploitation process.
+
+### What to Expect
+
+This walkthrough is written to make the learning process as straightforward as possible. Each step explains what to do, what to notice, and why it matters before moving forward.
+
+Whether you're new to Active Directory or already familiar with its fundamentals, the goal is to help you understand the exploitation process without getting lost in unnecessary details.
 
